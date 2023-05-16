@@ -17,4 +17,12 @@ public class FilmItem {
     public String getFilmName() {
         return filmName;
     }
+
+    public void setFilmId(int filmId) {
+        this.filmId = filmId;
+    }
+
+    public void setFilmName(String filmName) {
+        this.filmName = filmName;
+    }
 }
