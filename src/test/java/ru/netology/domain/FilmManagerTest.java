@@ -61,7 +61,7 @@ public class FilmManagerTest {
 
     @Test
     public void LastFilmsLimitMoreLength() {
-        FilmManager manager = new FilmManager(6);
+        FilmManager manager = new FilmManager(6); // проверяем конструктор лимита
 
         manager.addFilm("Film_1");
         manager.addFilm("Film_2");
