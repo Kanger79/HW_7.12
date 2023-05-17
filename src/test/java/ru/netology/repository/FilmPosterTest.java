@@ -15,8 +15,9 @@ public class FilmPosterTest {
     FilmItem film6 = new FilmItem(6, "Film_6");
     FilmItem film7 = new FilmItem(7, "Film_7");
 
+
     @Test
-    public void test() {
+    public void addAndRemoveFilms() {
         FilmPoster poster = new FilmPoster();
         poster.addNewFilm(film1);
         poster.addNewFilm(film2);

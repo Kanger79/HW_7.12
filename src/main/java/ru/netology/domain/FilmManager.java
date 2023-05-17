@@ -5,7 +5,7 @@ public class FilmManager {
     private int limit;
 
     public FilmManager() {
-        this.limit = 4;
+        this.limit = 5;
     }
 
     public FilmManager(int limit) {
@@ -38,13 +38,13 @@ public class FilmManager {
     }
 
     public String[] findLast() {
-        int resultlength;
+        int resultLength;
         if (films.length < limit) {
-            resultlength = films.length;
+            resultLength = films.length;
         } else {
-            resultlength = limit;
+            resultLength = limit;
         }
-        String[] reverse = new String[resultlength];
+        String[] reverse = new String[resultLength];
         for (int i = 0; i < reverse.length; i++) {
             reverse[i] = films[films.length - 1 - i];
         }
